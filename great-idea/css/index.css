@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-/* HEADER & NAV - START */
+/*** HEADER & NAV - START ***/
 
 header {
 	display: flex;
@@ -99,4 +99,56 @@ nav a:hover {
 
 
 /* HEADER & NAV - END */
+
+/*** WHOLE PAGE EDITS - START ***/
+
+.pageContainer {
+	margin: 0px 8%;
+}
+
+/* WHOLE PAGE EDITS - END */
+
+/*** MAIN TOP SECTION - START ***/
+
+.mainSection {
+	display: flex;
+	margin: 60px 0px;
+}
+
+.mainSection .leftHalf {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.mainSection .rightHalf  {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.mainSection h1 {
+	text-align: center;
+	font-size: 70px;
+}
+.mainSection .button {
+	display: block;
+	text-decoration: none;
+	border: 2px solid black;
+	padding: 10px 20px;
+	color: black;
+	margin-top: 15px;
+}
+
+.halfWidth {
+	width: 50%;
+}
+
+
+/* MAIN TOP SECTION - END */
+
 
