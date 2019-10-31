@@ -130,10 +130,16 @@ nav a:hover {
 	justify-content: center;
 }
 
+.rightHalf img {
+	width: 100%;
+	max-width: 415px;
+	max-height: 415px;
+}
+
 
 .mainSection h1 {
 	text-align: center;
-	font-size: 70px;
+	font-size: 7vw;
 }
 .mainSection .button {
 	display: block;
@@ -151,4 +157,67 @@ nav a:hover {
 
 /* MAIN TOP SECTION - END */
 
+/*** SECTION FEATURES ABOUT - START ***/
+
+.featuresAbout {
+	display: flex;
+	border-top: 2px solid black;
+	padding: 30px 0px;
+	justify-content: space-between;
+}
+.featuresAbout .halfWidth {
+	width: 47%;
+}
+
+/* SECTION FEATURES ABOUT - END */
+
+/*** MIDDLE IMAGE IN CONTENT - START ***/
+
+.middle-img {
+	width: 100%;
+}
+
+/* MIDDLE IMAGE IN CONTENT - END */
+
+/*** Services Product Vision Section - START ***/
+
+.servicesProductVision {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px;
+	border-bottom: 2px solid black;
+}
+
+.servicesProductVision .thirdWidth {
+	width: 31%;
+}
+
+
+/* Services Product Vision Section - END */
+
+/*** CONTACT SECTION - START ***/
+
+.contactSection {
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 30px 0px;
+}
+address p {
+	margin-bottom: 15px;
+	
+}
+address a{
+	text-decoration: none;
+}
+
+/* CONTACT SECTION - END */
+
+/*** FOOTER SECTION - START ***/
+footer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+/* FOOTER SECTION - END */
 
