@@ -258,15 +258,11 @@ footer {
 
 /*** LEARN MORE GRID - START ***/
 
-
-
-/* LEARN MORE GRID - END */
-
 .learnMoreGrid {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	padding: 40px 0px;
+	padding-top: 40px;
 }
 
 .learnMoreButton {
@@ -287,5 +283,50 @@ footer {
 	width: 48%;
 	margin-bottom: 4%;
 }
+/* LEARN MORE GRID - END */
+
+/*** SOME FACTS SECTION - START ***/
+
+.someFacts {
+	display: flex;
+	border-top: 2px solid black;
+	padding: 40px 0px;
+	justify-content: space-between;
+}
+.someFacts p {
+	margin-bottom: 20px;
+	
+}
+.someFacts li {
+	list-style-type: square;
+	margin-bottom: 15px;
+}
+ul {
+	margin-left: 20px;
+}	
+
+.someFacts .leftHalf {
+	width: 48%;
+}
+.someFacts .rightHalf {
+	width: 48%;	
+	display: flex;
+	justify-content: flex-end;
+}
+.someFacts img {
+
+}
+
+/* SOME FACTS SECTION - END */
+
+/*** FOOTER SECTION - START ***/
+
+footer {
+	margin: 40px 0px;
+}
+
+/* FOOTER SECTION - END */
+
+
 
 /*               EDITS FOR SERVICES PAGE - END                     */
