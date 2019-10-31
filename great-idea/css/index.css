@@ -106,6 +106,10 @@ nav a:hover {
 	margin: 0px 8%;
 }
 
+h1 {
+	font-size: 7vw;
+}
+
 /* WHOLE PAGE EDITS - END */
 
 /*** MAIN TOP SECTION - START ***/
@@ -139,7 +143,7 @@ nav a:hover {
 
 .mainSection h1 {
 	text-align: center;
-	font-size: 7vw;
+
 }
 .mainSection .button {
 	display: block;
@@ -148,6 +152,14 @@ nav a:hover {
 	padding: 10px 20px;
 	color: black;
 	margin-top: 15px;
+	border-radius: 3px;
+}
+
+.mainSection .button:hover {
+	color: white;
+	background: teal;
+	box-shadow: 2px 2px #115050;;
+
 }
 
 .halfWidth {
@@ -221,3 +233,59 @@ footer {
 
 /* FOOTER SECTION - END */
 
+/***               EDITS FOR SERVICES PAGE - START                     ***/
+
+/*** HEADER IMAGE - START ***/
+
+.services-header-img {
+	width: 100%;
+}
+
+/* HEADER IMAGE - END */
+
+/*** SERVICES SECTION - START ***/
+
+.services {
+	padding: 40px 0px;
+	border-bottom: 2px solid black;
+}
+
+.services h1 {
+	font-size: 32px;
+}
+
+/* SERVICES SECTION - END */
+
+/*** LEARN MORE GRID - START ***/
+
+
+
+/* LEARN MORE GRID - END */
+
+.learnMoreGrid {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 40px 0px;
+}
+
+.learnMoreButton {
+	background: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 10px 40px;
+	display: inline-block;
+	margin: 20px 0px;
+}
+
+.singleGridBox {
+	border: 1px solid black;
+	background: #ccc;
+	padding: 20px;
+	width: 48%;
+	margin-bottom: 4%;
+}
+
+/*               EDITS FOR SERVICES PAGE - END                     */
