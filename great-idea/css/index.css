@@ -84,6 +84,13 @@ nav {
 
 }
 
+.mobileNav {
+	visibility: hidden;
+	width: 15%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
 nav a {
 	color: white;
 	text-decoration: none;
@@ -95,6 +102,8 @@ nav a:hover {
 
 .logoBox {
 	padding: 0px 2%;
+
+
 }
 
 
@@ -276,6 +285,12 @@ footer {
 	margin: 20px 0px;
 }
 
+.learnMoreButton:hover {
+	color: white;
+	background: teal;
+	border: 1px solid white;
+}
+
 .singleGridBox {
 	border: 1px solid black;
 	background: #ccc;
@@ -289,6 +304,7 @@ footer {
 
 .someFacts {
 	display: flex;
+	flex-flow: row wrap;
 	border-top: 2px solid black;
 	padding: 40px 0px;
 	justify-content: space-between;
@@ -314,7 +330,8 @@ ul {
 	justify-content: flex-end;
 }
 .someFacts img {
-
+	width: 100%;
+	height: auto;
 }
 
 /* SOME FACTS SECTION - END */
@@ -329,4 +346,36 @@ footer {
 
 
 
+
+
 /*               EDITS FOR SERVICES PAGE - END                     */
+
+
+@media only screen and (max-width: 900px) {
+	.singleGridBox {
+		width: 100%;
+
+	}
+	.someFacts .leftHalf {
+		width: 100%;
+	}
+	.someFacts .rightHalf {
+		width: 100%;
+		justify-content: center;
+	}
+	nav {
+		visibility: hidden;
+	}
+	.mobileNav {
+		visibility: visible;
+		line-height: .1;
+		font-size: 50px;
+	}
+	.hamburger {
+		margin-top: -35px;
+	}
+	.hamburger:hover {
+		color: white;
+		cursor: pointer;
+	}
+}
